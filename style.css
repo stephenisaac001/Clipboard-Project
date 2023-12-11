@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.container {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.off {
+    color: hsl(210, 10%, 33%);
+    font-family:Arial, Helvetica, ;
+}
+
+
+.space {
+    padding-top: 12px;
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    text-align: center;
+}
+
+.icon {
+    background-image: url(images/bg-header-desktop.png);
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.history {
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.nike {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#down {
+    background-color:  hsl(171, 66%, 44%);
+    border: 50px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+#load {
+    background-color: hsl(233, 100%, 69%);
+    border: 50px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.keep {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.devices {
+    display: flex;
+}
+
+ .image1 {
+    float: left;
+    padding-right: 50px;
+ }
+
+ .search {
+    float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+ }
+
+.quick {
+    padding-top: 30%;
+}
+
+.Access {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.image2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center 
+}
+
+.workflow {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.sources {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    text-align: center;
+}
+
+.create {
+    float: left;
+    margin-left: 10%;
+}
+
+.plain {
+    float: right;
+    margin-left: 9%;
+}
+
+.sneak {
+    float: right;
+    margin-left: 3%;
+}
+
+.item {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.google {
+    float: left;
+    margin-left: 7%;
+}
+
+.ibm {
+    float: left;
+    margin-left: 8%;
+}
+
+.microsoft {
+    float: left;
+    margin-left: 6%;
+}
+
+.hp {
+    float: left;
+    margin-left: 5%;
+}
+
+.graphics {
+    float: left;
+    margin-left: 6%;
+}
+
+.board {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.id {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#ios {
+    background-color:  hsl(171, 66%, 44%);
+    border: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+#mac {
+    background-color: hsl(233, 100%, 69%);
+    border: 50px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.text-media {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon2 {
+    margin-left: 8%;
+}
+
+.text {
+    display: flex;
+}
+
+
+.faqs {
+    padding-left: 100px;
+}
+
+#us{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+ 
+
+.policy {
+    padding-left: 100px;
+}
+
+.guide {
+    padding-left: 100px;
+}
+
+.media {
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 420px) {
+   .icon {
+    background-image: url(./images/bg-header-mobile.png);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 25px;
+   } 
+
+   .history {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+   }
+
+   .nike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   }
+   #down {
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+   }
+   #load {
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+   }
+   .keep {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+   }
+
+   .devices {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+   }
+
+   .image1 img {
+   width: 100%;
+   margin-left: 8%;
+}
+
+  .search {
+   padding-top: 10px;
+   padding-bottom: 80px;
+   text-align: center;
+}
+
+  .Access {
+   padding-top: 50px;
+   padding-bottom: 10px;
+   font-size: 15px;
+}
+   .image2 img {
+   width: 100%;
+
+}
+   .workflow {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+   }
+
+   .sources {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+   }
+
+   .item {
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center
+   }
+
+   .board {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+   }
+
+   .id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+   }
+
+    #ios{
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+   }
+   #mac {
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+   }
+
+   .text-media {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+   }
+
+   .icon2 {
+    align-items: center;
+    justify-content: center;
+     gap: 20px;
+   }
+   .text {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+   }
+}
